@@ -1,0 +1,11 @@
+framework module NonRandomFramework {
+  umbrella header "NonRandomFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NonRandomFramework.Swift {
+    header "NonRandomFramework-Swift.h"
+    requires objc
+}

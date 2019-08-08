@@ -1,0 +1,11 @@
+framework module PseudoDependencyFramework {
+  umbrella header "PseudoDependencyFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PseudoDependencyFramework.Swift {
+    header "PseudoDependencyFramework-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module RandomFramework {
+  umbrella header "RandomFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RandomFramework.Swift {
+    header "RandomFramework-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module PrintableProtocolFramework {
+  umbrella header "PrintableProtocolFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PrintableProtocolFramework.Swift {
+    header "PrintableProtocolFramework-Swift.h"
+    requires objc
+}
